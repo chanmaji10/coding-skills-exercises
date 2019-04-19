@@ -8,20 +8,15 @@ for _ in range(n):
     enemys.append(enemy)
 
 def judg(enemy):
-    if enemy['x'] > own['x'] + own['width']:
-        if enemy['y'] > own['y'] + own['height']:
-            return False
-        elif enemy['y']+ enemy['height'] < own['y']:
-            return False
-        
-    elif enemy['x'] + enemy['width'] < own['x']:
-        if enemy['y'] > own['y'] + own['height']:
-            return False
-        elif enemy['y']+ enemy['height'] < own['y']:
-            return False
+    l = enemy['x'] + enemy['width'] < own['x'] 
+    r = own['x'] + own['width'] < enemy['x']
+    t = own['y'] > enemy['y'] + enemy['height']
+    u = own['y'] + own['height'] < own['y']
+    if True in [l,r,t,u]:
+        return False
     else:
         return True
-
+        
 for i,enemy in enumerate(enemys):
     if judg(enemy):
         print('敵機{}が当たり'.format(i+1))
