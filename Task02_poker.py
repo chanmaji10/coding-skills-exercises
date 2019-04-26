@@ -17,7 +17,7 @@ def flash():
         return True
 
 def straight():
-    if True in [n==numbers for n in [[1, 10, 11, 12, 13], [1, 2, 10, 11, 12], [1, 2, 3, 10, 11], [1, 2, 3, 4, 10]]]:
+    if True in [n==numbers for n in [[1, 10, 11, 12, 13], [1, 2, 11, 12, 13], [1, 2, 3, 12, 13], [1, 2, 3, 4, 13]]]:
         return True
     elif len(set(numbers)) == 5 == numbers[0]+4 == numbers[4] == True:
         return True
