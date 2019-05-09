@@ -19,7 +19,7 @@ def flash():
 def straight():
     if True in [n==numbers for n in [[1, 10, 11, 12, 13], [1, 2, 11, 12, 13], [1, 2, 3, 12, 13], [1, 2, 3, 4, 13]]]:
         return True
-    elif len(set(numbers)) == 5 == numbers[0]+4 == numbers[4] == True:
+    elif len(set(numbers)) == 5 and numbers[0]+4 == numbers[4]:
         return True
 
 def threeCards():
