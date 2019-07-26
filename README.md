@@ -96,4 +96,4 @@ Q□□□□□□□
 
 
 
-![lifeGameDemo.mov](https://github.com/chanmaji10/coding-skills-exercises/lifeGameDemo.mov.gif)
+![lifeGameDemo.mov](https://raw.github.com/chanmaji10/coding-skills-exercises/lifeGameDemo.gif)
