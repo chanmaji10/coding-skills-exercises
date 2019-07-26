@@ -53,7 +53,7 @@ SA HA CA H6 H10
 
 
 
-## 課題 2 カードゲームの役を判定する  -> Task03_eightQueen.py
+## 課題 3 カードゲームの役を判定する  -> Task03_eightQueen.py
 
 動的計画法っぽい感じで再帰的に次の行のクイーンを置ける列を求める。
 
@@ -86,3 +86,14 @@ Q□□□□□□□
  --------------------
 ```
 
+
+
+
+
+## 課題 4 ライフゲーム  -> Task04_lifeGame.py
+
+`curses`初めて触ったので勉強になりました。
+
+
+
+![lifeGameDemo.mov](https://github.com/chanmaji10/coding-skills-exercises/lifeGameDemo.mov.gif)
