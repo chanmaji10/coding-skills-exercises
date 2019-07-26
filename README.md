@@ -94,5 +94,10 @@ Q□□□□□□□
 
 `curses`初めて触ったので勉強になりました。
 
+![lifeGameDemo.mov](https://raw.github.com/chanmaji10/coding-skills-exercises/lifeGameDemo.gif)
+
+
+
+
 
 
